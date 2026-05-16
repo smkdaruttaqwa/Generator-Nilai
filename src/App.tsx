@@ -413,9 +413,12 @@ export default function App() {
       {/* Top Navbar */}
       <nav className="h-16 bg-white/60 dark:bg-slate-900/60 backdrop-blur-xl border-b border-white/40 dark:border-slate-800/60 flex items-center justify-between px-6 md:px-8 z-20 shrink-0 shadow-sm transition-colors duration-300">
         <div className="flex items-center gap-4">
-          <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 to-indigo-500 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/30">
-            <Layers className="w-5 h-5 text-white" />
-          </div>
+          <img 
+            src="https://lh3.googleusercontent.com/a/ACg8ocKIyOSmUCibkuiYO0w4wo1Pl54QsoKUQBc3jfSxADJZEfuybRTZ=s288-c-no" 
+            alt="Logo Aplikasi" 
+            className="w-10 h-10 rounded-full shadow-md border-2 border-white dark:border-slate-700 object-cover" 
+            referrerPolicy="no-referrer"
+          />
           <div>
              <span className="font-bold text-slate-800 dark:text-slate-100 text-lg tracking-tight block leading-tight">Generator Nilai</span>
              <span className="text-xs font-medium text-blue-600 dark:text-blue-400">Tiap Semester v2.1</span>
