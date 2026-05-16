@@ -704,6 +704,11 @@ export default function App() {
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="w-full text-center py-3 text-[11px] font-medium text-slate-500 dark:text-slate-400 z-20 relative bg-white/30 dark:bg-slate-900/30 backdrop-blur-md border-t border-white/40 dark:border-slate-800/60">
+        &copy; agsusproject | Generator Nilai Tiap Semester | Agung Susanto, S.Pd.
+      </footer>
     </div>
   );
 }
