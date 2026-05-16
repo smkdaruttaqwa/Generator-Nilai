@@ -1,0 +1,8 @@
+{
+  "name": "Pemisah Nilai Siswa",
+  "description": "Aplikasi untuk memisahkan data nilai siswa per semester, kemudian memproses dan mengurutkan secara otomatis sesuai abjad nama siswa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
